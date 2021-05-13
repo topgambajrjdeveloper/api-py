@@ -1,3 +1,4 @@
+# -+- coding:'utf-8' -+-
 import os
 
 class Config(object):
@@ -22,6 +23,7 @@ class ProductionConfig(Config):
 class DevelopmentConfig(Config):
     ENV = "development"
     DEVELOPMENT = True
+    #APIREST='https://jsonplaceholder.typicode.com/posts'
     SECRET_KEY = "secret_for_test_environment"
     OAUTHLIB_INSECURE_TRANSPORT = True
     SQLALCHEMY_TRACK_MODIFICATIONS = True

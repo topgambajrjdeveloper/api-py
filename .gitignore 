@@ -1,5 +1,6 @@
 # api es vuestro venv
 api/
 .env
-__pycache__/
+**/__pycache__/
+.vscode
 txt.txt

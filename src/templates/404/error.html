@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %}Page Not Found{% endblock %}
+{% block content %}
+<div class="container">
+<h1>Página no encontrada</h1>
+  <p>Lo que estabas buscando simplemente no está ahí.
+  <a href="{{ url_for('get') }}">ir a un lugar agradable</a>
+</div>
+{% endblock %}
